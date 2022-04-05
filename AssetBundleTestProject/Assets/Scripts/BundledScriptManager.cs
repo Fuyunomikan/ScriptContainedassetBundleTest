@@ -54,7 +54,7 @@ using UnityEngine;
 
 namespace BundledScript
 {
-    public class Component : MonoBehaviour
+    public class AdditionalComponent : MonoBehaviour
     {
         public void Start()
         {
