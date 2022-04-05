@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2370466416
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bundledassembly
+      Dependencies: {}
