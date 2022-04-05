@@ -18,7 +18,7 @@ public class CleateAssetBundleEditor : MonoBehaviour
 
         //ƒrƒ‹ƒh
         UnityEditor.BuildPipeline.BuildAssetBundles(
-                Application.dataPath + "/AssetBundle",
+                Application.streamingAssetsPath + "/AssetBundle",
                 builds.ToArray(),
                 UnityEditor.BuildAssetBundleOptions.ChunkBasedCompression,
                 UnityEditor.BuildTarget.StandaloneWindows64

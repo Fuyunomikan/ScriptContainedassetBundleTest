@@ -1,10 +1,11 @@
 ●プロジェクトの中身●
 Assets
--AssetBundle...作成したアセットバンドル格納
 -Scenes...シーンファイル格納
 -Scripts...スクリプトフォルダ
   -DLL...アセンブリ格納（bytes拡張子にしてある）
   -Editor...アセットバンドル作成スクリプト格納
+-StreamingAssetsPath
+  -AssetBundle...作成したアセットバンドル格納
 
 「SampleScene」で動作の確認ができます。
 アセットバンドルの操作に関しては、BundledScriptManager.csに処理が書いてあるので、ここを参照してみてください。

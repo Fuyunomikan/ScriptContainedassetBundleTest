@@ -19,7 +19,7 @@ public class BundledScriptManager : MonoBehaviour
     private void LoadAndAttachComponent()
     {
         //アセットバンドルのロード
-        AssetBundle bundle = AssetBundle.LoadFromFile(Application.dataPath + "/AssetBundle/bundledassembly");
+        AssetBundle bundle = AssetBundle.LoadFromFile(Application.streamingAssetsPath + "/AssetBundle/bundledassembly");
 
         //TextAssetとしてバンドルデータを取得
         TextAsset text = bundle.LoadAsset<TextAsset>("AdditionalAssembly");
